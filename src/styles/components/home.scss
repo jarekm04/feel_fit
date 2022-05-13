@@ -1,0 +1,12 @@
+.home {
+  height: calc(100vh - 8rem);
+  width: 100vw;
+  position: relative;
+  .home__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+  }
+}

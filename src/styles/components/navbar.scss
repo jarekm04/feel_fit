@@ -3,26 +3,34 @@
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 8rem;
     padding: 0 3rem;
-    .navbar__logo {}
+    .navbar__logo {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
     .navbar__nav {
       display: flex;
       align-items: center;
+      height: 100%;
       .navbar__item {
         display: flex;
         align-items: center;
         height: 100%;
+        font-family: $font-secondary;
         font-size: 2.3rem;
         font-weight: lighter;
         padding: 0 2rem;
         color: $color-dkGray;
         text-decoration: none;
-        font-family: 'Cormorant', serif;
+        transition: all .5s ease;
+        &:hover {
+          background-color: $color-medGray;
+          border-radius: 1rem;
+        }
       }
     }
   }
-}
-
-section {
-  font-size: 5rem;
 }

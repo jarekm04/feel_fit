@@ -1,4 +1,5 @@
 import {motion} from "framer-motion";
+import homePhoto from "../assets/E0A9540_min.jpg";
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         >
-            <h1>HOMEPAGE</h1>
+            <img src={homePhoto} alt="homePhoto" className="home__bg"/>
         </motion.section>
     );
 };
