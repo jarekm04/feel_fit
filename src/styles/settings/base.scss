@@ -1,4 +1,4 @@
-@use 'sass:color';
+@import "variables";
 
 * {
   margin: 0;
@@ -12,6 +12,11 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: lightblue;
+  color: $color-dkGray;
+  background-color: $color-white;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
 }

@@ -1,4 +1,9 @@
-@import "./settings/base";
-@import "./settings/colors";
-@import "./settings/mixins";
-@import "./settings/variables";
+@import "settings/base";
+@import "settings/mixins";
+@import "settings/variables";
+
+@import "components/navbar";
+@import "components/home";
+@import "components/about";
+@import "components/blog";
+@import "components/contact";

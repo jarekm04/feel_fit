@@ -1,10 +1,14 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>ELO</h1>
-      </header>
+      <Router>
+          <Navbar />
+          <AnimatedRoutes />
+      </Router>
     </div>
   );
 }
