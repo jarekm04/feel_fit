@@ -2,11 +2,81 @@
   height: calc(100vh - 8rem);
   width: 100vw;
   position: relative;
-  .home__bg {
+  overflow: hidden;
+  background: $gradient-homepage;
+  .home__bg-1 {
     position: absolute;
-    top: 0;
+    top: -6rem;
     right: 0;
     width: auto;
+    height: calc(100% + 6rem);
+  }
+  .home__bg-2 {
+    position: absolute;
+    bottom: 0;
+    left: -47px;
     height: 100%;
+    width: auto;
+    opacity: 0.3;
+  }
+  .container {
+    position: relative;
+    height: 100%;
+    .home__opening {
+      position: absolute;
+      top: 28%;
+      left: -15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .home__title {
+        width: 66%;
+        font-size: 5rem;
+        line-height: 5rem;
+        font-style: italic;
+        text-align: center;
+        font-family: $font-secondary;
+        margin-bottom: 0.4rem;
+
+      }
+      .home__subtitle {
+        font-size: 2rem;
+        font-family: $font-secondary;
+        margin-bottom: 5rem;
+      }
+      .home__buttons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .home__btn {
+          font-size: 2rem;
+          color: $color-white;
+          background-color: $color-dkGreen;
+          border: none;
+          border-radius: 2.2rem;
+          padding: 1.5rem 2.5rem;
+          margin-right: 1rem;
+          cursor: pointer;
+          transition: .3s ease;
+          text-decoration: none;
+          &:hover {
+            color: $color-dkGray;
+            background-color: $color-white;
+            border: 1px solid $color-dkGreen;
+          }
+          &:nth-of-type(2) {
+            color: $color-dkGray;
+            background-color: $color-white;
+            border: 1px solid $color-dkGreen;
+            margin-right: 0;
+            &:hover {
+              color: $color-white;
+              background-color: $color-dkGreen;
+              border: none;
+            }
+          }
+        }
+      }
+    }
   }
 }

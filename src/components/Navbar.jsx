@@ -11,6 +11,7 @@ const Navbar = () => {
                 <nav className="navbar__nav">
                     <Link to="/" className="navbar__item">STRONA GŁÓWNA</Link>
                     <Link to="/about" className="navbar__item">O MNIE</Link>
+                    <Link to="/packages" className="navbar__item">PAKIETY</Link>
                     <Link to="/blog" className="navbar__item">BLOG</Link>
                     <Link to="/contact" className="navbar__item">KONTAKT</Link>
                 </nav>
