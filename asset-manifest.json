@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.36af4afb.css",
-    "main.js": "/static/js/main.ea5a2885.js",
-    "static/media/gretaCutted2.png": "/static/media/gretaCutted2.cc4f18fe13cba9dcdb89.png",
-    "static/media/selerLONG.jpg": "/static/media/selerLONG.e74100f19f4c02abfc15.jpg",
-    "static/media/logo-in.PNG": "/static/media/logo-in.8194449feaae721fc025.PNG",
-    "index.html": "/index.html",
-    "main.36af4afb.css.map": "/static/css/main.36af4afb.css.map",
-    "main.ea5a2885.js.map": "/static/js/main.ea5a2885.js.map"
+    "main.css": "/feel_fit/static/css/main.36af4afb.css",
+    "main.js": "/feel_fit/static/js/main.459d7d93.js",
+    "static/media/gretaCutted2.png": "/feel_fit/static/media/gretaCutted2.cc4f18fe13cba9dcdb89.png",
+    "static/media/selerLONG.jpg": "/feel_fit/static/media/selerLONG.e74100f19f4c02abfc15.jpg",
+    "static/media/logo-in.PNG": "/feel_fit/static/media/logo-in.8194449feaae721fc025.PNG",
+    "index.html": "/feel_fit/index.html",
+    "main.36af4afb.css.map": "/feel_fit/static/css/main.36af4afb.css.map",
+    "main.459d7d93.js.map": "/feel_fit/static/js/main.459d7d93.js.map"
   },
   "entrypoints": [
     "static/css/main.36af4afb.css",
-    "static/js/main.ea5a2885.js"
+    "static/js/main.459d7d93.js"
   ]
 }
