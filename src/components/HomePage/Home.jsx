@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import homePhoto1 from "../assets/selerLONG-min.jpg";
+import homePhoto1 from "../../assets/selerLONG-min.jpg";
 
 const Home = () => {
     return (

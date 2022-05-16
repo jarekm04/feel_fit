@@ -1,4 +1,4 @@
-import foto from "../assets/gretaCutted2.png";
+import foto from "../../assets/gretaCutted2.png";
 
 const About = () => {
     return (

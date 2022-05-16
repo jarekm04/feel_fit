@@ -1,10 +1,12 @@
+import {useEffect} from "react";
+import { useNavigate } from "react-router-dom";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Packages from "./components/Packages";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+import Navbar from "./components/HomePage/Navbar";
+import Home from "./components/HomePage/Home";
+import About from "./components/HomePage/About";
+import Packages from "./components/HomePage/Packages";
+import Blog from "./components/HomePage/Blog";
+import Contact from "./components/HomePage/Contact";
 
 function App() {
 
