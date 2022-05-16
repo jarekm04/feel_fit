@@ -11,14 +11,6 @@
     width: auto;
     height: calc(100% + 6rem);
   }
-  .home__bg-2 {
-    position: absolute;
-    bottom: 0;
-    left: -47px;
-    height: 100%;
-    width: auto;
-    opacity: 0.3;
-  }
   .container {
     position: relative;
     height: 100%;
@@ -36,13 +28,7 @@
         font-style: italic;
         text-align: center;
         font-family: $font-secondary;
-        margin-bottom: 0.4rem;
-
-      }
-      .home__subtitle {
-        font-size: 2rem;
-        font-family: $font-secondary;
-        margin-bottom: 5rem;
+        margin-bottom: 6rem;
       }
       .home__buttons {
         display: flex;

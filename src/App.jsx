@@ -7,6 +7,7 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
 function App() {
+
   return (
     <div className="App">
       <Router>
