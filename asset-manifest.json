@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/feel_fit/static/css/main.0a66b831.css",
-    "main.js": "/feel_fit/static/js/main.d503aed5.js",
+    "main.css": "/feel_fit/static/css/main.713a78bd.css",
+    "main.js": "/feel_fit/static/js/main.bf67d1ea.js",
     "static/media/gretaCutted2.png": "/feel_fit/static/media/gretaCutted2.cc4f18fe13cba9dcdb89.png",
+    "static/media/IMG_3385.JPG": "/feel_fit/static/media/IMG_3385.a6a16e962c0b262e4058.JPG",
     "static/media/selerLONG-min.jpg": "/feel_fit/static/media/selerLONG-min.19608ab168eb93a0554c.jpg",
     "static/media/logo-in.PNG": "/feel_fit/static/media/logo-in.8194449feaae721fc025.PNG",
     "index.html": "/feel_fit/index.html",
-    "main.0a66b831.css.map": "/feel_fit/static/css/main.0a66b831.css.map",
-    "main.d503aed5.js.map": "/feel_fit/static/js/main.d503aed5.js.map"
+    "main.713a78bd.css.map": "/feel_fit/static/css/main.713a78bd.css.map",
+    "main.bf67d1ea.js.map": "/feel_fit/static/js/main.bf67d1ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a66b831.css",
-    "static/js/main.d503aed5.js"
+    "static/css/main.713a78bd.css",
+    "static/js/main.bf67d1ea.js"
   ]
 }
