@@ -1,9 +1,11 @@
+import tableBg from "../../assets/IMG_3385.JPG";
+
 const Packages = () => {
     return (
         <section
             className="packages"
         >
-            <h1>Pakiety</h1>
+            <img src={tableBg} alt="table"/>
         </section>
     );
 };
