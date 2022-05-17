@@ -1,6 +1,7 @@
 import {useState} from "react";
 import {Link} from "react-router-dom";
-import {GiHamburgerMenu, GiOpenBook} from "react-icons/gi";
+import {GiOpenBook} from "react-icons/gi";
+import {AiOutlineDoubleLeft} from "react-icons/ai";
 import {RiCloseLine} from "react-icons/ri";
 import {FaHome} from "react-icons/fa";
 import {BsFillPersonFill} from "react-icons/bs";
@@ -8,12 +9,12 @@ import {GrMail} from "react-icons/gr";
 import {ImPriceTags} from "react-icons/im";
 
 const NavMobile = () => {
-    const [sidebar, setSidebar] = useState(true);
+    const [sidebar, setSidebar] = useState(false);
 
     return (
         <div className="navbar__mobileBox">
             {!sidebar ? (
-                <GiHamburgerMenu className="navbar__hamIcon" onClick={() => setSidebar(!sidebar)}/>
+                <AiOutlineDoubleLeft className="navbar__openIcon" onClick={() => setSidebar(!sidebar)}/>
             ) : (
                 <RiCloseLine className="navbar__closeIcon" onClick={() => setSidebar(!sidebar)}/>
             )

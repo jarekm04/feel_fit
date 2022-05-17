@@ -1,13 +1,74 @@
 .packages {
-  height: calc(100vh - 8rem);
+  height: 100vh;
   width: 100vw;
   position: relative;
   overflow: hidden;
-  img {
+
+  .packages__bg {
     position: absolute;
-    top: -8rem;
+    top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    background: url("../../assets/IMG_3385.JPG") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .packages__title {
+      margin-bottom: 4rem;
+    }
+
+    .packages__options {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .packages__option {
+        flex-basis: 38rem;
+        border-radius: 2rem;
+        background-color: $color-white;
+        padding: 2rem;
+        position: relative;
+
+        &:nth-of-type(1) > :first-child {
+          background-color: $color-packagesRed;
+        }
+        &:nth-of-type(2) > :first-child {
+          background-color: $color-packagesYellow;
+        }
+        &:nth-of-type(3) > :first-child {
+          background-color: $color-packagesGreen;
+          color: $color-white;
+        }
+
+        .option__name {
+          position: absolute;
+          top: -3rem;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 2.5rem;
+          padding: 1rem 2rem;
+          border-radius: 3rem;
+        }
+
+        .option__list {
+          font-size: 1.8rem;
+          list-style: inside;
+        }
+
+        .option__price {
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }

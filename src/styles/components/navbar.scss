@@ -1,6 +1,11 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: $color-ltGray;
   z-index: 100;
+  opacity: 0.9;
   .container {
     display: flex;
     justify-content: space-between;
@@ -45,7 +50,7 @@
       }
     }
     .navbar__mobileBox {
-      .navbar__hamIcon,
+      .navbar__openIcon,
       .navbar__closeIcon {
         font-size: 3rem;
         cursor: pointer;
