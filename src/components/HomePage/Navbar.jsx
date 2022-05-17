@@ -21,7 +21,7 @@ const Navbar = () => {
                     <img src={logo} alt="logo" />
                 </Link>
                 {
-                    width > 950 ? <NavDesktop /> : <NavMobile />
+                    width > 650 ? <NavDesktop /> : <NavMobile />
                 }
             </div>
         </header>
