@@ -1,6 +1,5 @@
 .packages {
-  height: 100vh;
-  width: 100vw;
+  min-height: calc(100vh - 8rem);
   position: relative;
   overflow: hidden;
 
@@ -8,6 +7,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    min-height: calc(100vh - 8rem);
     height: 100%;
     width: 100%;
     background: url("../../assets/IMG_3385.JPG") no-repeat center center fixed;
@@ -21,33 +21,74 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-bottom: 5rem;
 
     .packages__title {
-      margin-bottom: 4rem;
+      font-size: 4rem;
+      font-weight: lighter;
+      color: $color-dkGray;
+      background: $color-ltGray;
+      padding: 2rem 4rem;
+      margin: 6rem 0;
+      border-radius: 5rem;
+      position: relative;
     }
 
     .packages__options {
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
+      gap: 6rem 2rem;
       width: 100%;
+      padding: 0 2rem;
+      font-weight: lighter;
 
       .packages__option {
-        flex-basis: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 39rem;
         border-radius: 2rem;
         background-color: $color-white;
         padding: 2rem;
         position: relative;
 
-        &:nth-of-type(1) > :first-child {
-          background-color: $color-packagesRed;
+        &:before {
+          content: '';
+          position: absolute;
+          top: 2rem;
+          left: 2rem;
+          width: 100%;
+          height: 100%;
+          border-radius: 2rem;
+          z-index: -1;
         }
-        &:nth-of-type(2) > :first-child {
-          background-color: $color-packagesYellow;
+
+        &:nth-of-type(1) {
+          align-self: center;
+          &:before {
+            background-color: $color-packagesRed;
+          }
+          & > :first-child {
+            background-color: $color-packagesRed;
+          }
         }
-        &:nth-of-type(3) > :first-child {
-          background-color: $color-packagesGreen;
-          color: $color-white;
+        &:nth-of-type(2) {
+          &:before {
+            background-color: $color-packagesYellow;
+          }
+          & > :first-child {
+            background-color: $color-packagesYellow;
+          }
+        }
+        &:nth-of-type(3) {
+          align-self: center;
+          &:before {
+            background-color: $color-packagesGreen;
+          }
+          & > :first-child {
+            background-color: $color-packagesGreen;
+          }
         }
 
         .option__name {
@@ -58,15 +99,28 @@
           font-size: 2.5rem;
           padding: 1rem 2rem;
           border-radius: 3rem;
+          color: $color-white;
         }
 
         .option__list {
           font-size: 1.8rem;
-          list-style: inside;
+          list-style-type: none;
+          li {
+            .list__icon {
+              font-size: 2.5rem;
+              transform: translateY(0.6rem);
+              margin-right: 0.5rem;
+            }
+            p {
+              font-size: 1.3rem;
+            }
+          }
         }
 
         .option__price {
-          font-size: 2rem;
+          font-size: 2.3rem;
+          margin-top: 1.5rem;
+          align-self: center;
         }
       }
     }

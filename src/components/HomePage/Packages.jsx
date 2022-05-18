@@ -1,4 +1,5 @@
 import tableBg from "../../assets/IMG_3385.JPG";
+import {BiCheckCircle} from "react-icons/bi";
 
 const Packages = () => {
     return (
@@ -12,28 +13,28 @@ const Packages = () => {
                     <article className="packages__option">
                         <h3 className="option__name">STANDARD</h3>
                         <ul className="option__list">
-                            <li>1x indywidualna konsultacja dietetyczna online</li>
-                            <li>1 tydzień codziennego kontaktu za pośrednictwem aplikacji z analizą posiłków</li>
+                            <li><BiCheckCircle className="list__icon"/>1x indywidualna konsultacja dietetyczna online</li>
+                            <li><BiCheckCircle className="list__icon"/>1 tydzień codziennego kontaktu za pośrednictwem aplikacji z analizą posiłków</li>
                         </ul>
                         <h4 className="option__price">150zł</h4>
                     </article>
                     <article className="packages__option">
                         <h3 className="option__name">PREMIUM</h3>
                         <ul className="option__list">
-                            <li>4x indywidualna konsultacja dietetyczna online</li>
-                            <li>1 miesiąc codziennego kontaktu za pośrednictwem aplikacji z analizą posiłków</li>
+                            <li><BiCheckCircle className="list__icon"/>4x indywidualna konsultacja dietetyczna online</li>
+                            <li><BiCheckCircle className="list__icon"/>1 miesiąc codziennego kontaktu za pośrednictwem aplikacji z analizą posiłków</li>
                             <br/>
-                            <li>Materiały edukacyjne z zadaniami do wykonania</li>
+                            <li><BiCheckCircle className="list__icon"/>Materiały edukacyjne z zadaniami do wykonania</li>
                             <br/>
-                            <li>Propozycje diety w razie potrzeby</li>
+                            <li><BiCheckCircle className="list__icon"/>Propozycje diety w razie potrzeby</li>
                         </ul>
                         <h4 className="option__price">350zł</h4>
                     </article>
                     <article className="packages__option">
                         <h3 className="option__name">SPECIAL</h3>
                         <ul className="option__list">
-                            <li>1 miesiąc kontaktu za pośrednictwem aplikacji z analizą posiłków*</li>
-                            <li>*Oferta dla członków grupy "W trosce o siebie"</li>
+                            <li><BiCheckCircle className="list__icon"/>1 miesiąc kontaktu za pośrednictwem aplikacji z analizą posiłków*</li>
+                            <li><p>*Oferta dla członków grupy "W trosce o siebie"</p></li>
                         </ul>
                         <h4 className="option__price">100zł</h4>
                     </article>
